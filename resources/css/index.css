@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    padding: 1px;
+    text-align: center;
+    overflow: scroll;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: whitesmoke;
+    width: 750px;
+}
+
+main {
+    padding: 5%;
+}
+
+ul {
+    list-style: none;
+}
+.card {
+    align-items: center;
+}
+
+.card .col .title img {
+    width: 11em;
+}
+
+.card .col img {
+    width: 4em;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.col img{
+    width: 8em;
+}
+
+.proj {
+    flex: 1;
+}
+
+.proj p{
+    max-height: 30%;
+}
+
+.row {
+    align-items: baseline;
+    display: flex;
+    justify-content: space-evenly;
+    width: inherit;
+}
+
+.title h1{
+    font-size: 3em;
+}
+
+.title h2{
+    font-size: 1.5em;
+}
